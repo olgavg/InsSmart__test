@@ -1,0 +1,47 @@
+.widget__container {
+  .btn, a.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    background: none;
+    border-radius: $secondary-border-radius;
+    padding: 14px 24px;
+    color: $main-text-color;
+    font: 400 14px/21px 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    height: 52px;
+    transition: .25s;
+    cursor: pointer;
+    &-primary {
+      background: $primary-color;
+      color: $white-color;
+      &:hover {
+        background: $primary-hover-color;
+        color: $white-color;
+      }
+      &:focus {
+        color: $white-color;
+      }
+    }
+    &-secondary {
+      background: $white-color;
+      &:hover {
+        background: $white-color;
+        color: $primary-hover-color;
+      }
+      &:focus {
+        color: $primary-focus-color;
+      }
+    }
+  }
+
+  @media screen and (min-width: $md) {
+    .btn, a.btn {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

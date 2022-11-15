@@ -1,0 +1,24 @@
+.widget__container {   
+  .nav-tabs {
+    border: none;
+    .nav-link {
+      padding: 20px 24px;
+      border-radius: $main-border-radius $main-border-radius 0 0;
+      border: none;
+      font: 500 22px/33px 'Montserrat', sans-serif;
+      color: $main-text-color;
+      background: $main-secondary-color;
+      &.active {
+        color: $primary-color;
+        background: $white-color;
+      }
+    }
+  }
+  .tab-content {
+    padding: 40px 60px; 
+    border-radius: 0 $main-border-radius $main-border-radius $main-border-radius;
+    background: $white-color;
+    position: relative;
+    overflow: hidden;
+  }
+}

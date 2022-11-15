@@ -1,0 +1,36 @@
+.widget__container {   
+  .accordion-item {
+    border: none;
+    border-radius: $main-border-radius;
+    margin-bottom: $margin-bottom-2;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .accordion-header {
+      margin: 0;
+    }
+    .accordion-button {
+      box-shadow: none;
+      border-radius: $main-border-radius;
+      font-size: inherit;
+      font-weight: inherit;
+      padding: 21.5px $main-border-radius;
+      background: $white-color;
+      border: none;
+      color: $primary-color;
+      &.collapsed {
+        border-radius: $main-border-radius;
+        color: $main-text-color;
+      }
+      &::after {
+        background-image: url("../img/icon-arrow-down.svg");
+        background-size: contain;
+        width: 14px;
+        height: 7.2px;
+      }
+    }
+  }
+  .accordion-body {
+    padding: $margin-bottom-1 $margin-bottom-2;     
+  }
+}

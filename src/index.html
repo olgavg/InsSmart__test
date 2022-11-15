@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Тестовое задание</title>
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png"> -->
+  <meta name="description" content="тестовое задание">
+  <meta name="author" content="Кодер">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+</head>
+<body class="page">
+  <header class="page__header">
+  </header>
+  <main class="page__content">
+    <section>
+
+      <article>
+        <div class="widget__container widget_mobile d-block d-md-none">
+          <div class="accordion" id="accordionBox">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Горный велосипед                
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBox">
+                <div class="accordion-body">
+                  <div class="item__box">
+                    <picture class="item__box_image">
+                      <source type="image/webp" srcset="./img/image-1.webp" width="295" height="192" loading="lazy">
+                      <img srcset="./img/image-1.jpg" alt="Горный велосипед" width="295" height="192" loading="lazy">
+                    </picture>
+                    <div class="item__box_desc">
+                      <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                      <p>
+                        Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.
+                      </p>
+                      <p>
+                        Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+                  <h3>Характеристики</h3>
+                  <ol class="items-list items-list_number">
+                    <li>Двойной обод</li>
+                    <li>Алюминиевый сплав</li>
+                    <li>Колеса диаметром 26 дюймов</li>
+                    <li>Покрышки 26х1,95"</li>
+                  </ol>
+                  <form class="form__send">   
+                    <h3>Добавить характеристику</h3>                    
+                    <div class="item__box">                   
+                      <input type="text" class="form-control" id="itemDesc1" autocomplete="off" placeholder="Алюминиевый сплав" required>
+                      <button type="submit" name="formSubmit" class="btn btn-primary">Добавить</button> 
+                    </div> 
+                  </form>
+                  <div class="box__container">
+                    <div class="button__wrapper">
+                      <button type="submit" name="formOk" class="btn btn-primary">Окей</button> 
+                      <button type="submit" name="formReset" class="btn btn-secondary">Отмена</button> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Женский велосипед
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionBox">
+                <div class="accordion-body">
+                  <div class="item__box">
+                    <picture class="item__box_image">
+                      <source type="image/webp" srcset="./img/image-2.webp" loading="lazy">
+                      <img srcset="./img/image-2.jpg" alt="Женский велосипед" loading="lazy">
+                    </picture>
+                    <div class="item__box_desc">
+                      <h1>Велосипед SCHWINN Traveler women 2022</h1>
+                      <p>
+                        Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.
+                      </p>
+                      <p>
+                        На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+                  <h3>Характеристики</h3>
+                  <ul class="items-list items-list_icon">
+                    <li>Стальная рама</li>
+                    <li>Жесткая вилка</li>
+                    <li>Колеса диаметром 24 дюймов</li>
+                    <li>7 скоростей</li>
+                  </ul>
+                  <form class="form__send">   
+                    <h3>Добавить характеристику</h3>  
+                    <div class="item__box">                   
+                      <input type="text" class="form-control" id="itemDesc2" autocomplete="off" placeholder="Алюминиевый сплав" required>
+                      <button type="submit" name="formSubmit" class="btn btn-primary">Добавить</button> 
+                    </div>                   
+                  </form>
+                  <div class="box__container">
+                    <div class="button__wrapper">
+                      <button type="submit" name="formOk" class="btn btn-primary">Окей</button> 
+                      <button type="submit" name="formReset" class="btn btn-secondary">Отмена</button> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="widget__container widget_desktop d-none d-md-block">
+          <ul class="nav nav-tabs">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tabOne" type="button" role="tab" aria-selected="true">Горный велосипед</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabTwo" type="button" role="tab"  aria-selected="false">Женский велосипед</button>
+            </li>
+          </ul>
+    
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tabOne" role="tabpanel">
+              <div class="item__box">
+                <picture class="item__box_image">
+                  <source type="image/webp" srcset="./img/image-1.webp" width="358" height="232" loading="lazy">
+                  <img srcset="./img/image-1.jpg" alt="Горный велосипед" width="358" height="232" loading="lazy">
+                </picture>
+                <div class="item__box_desc">
+                  <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                  <p>
+                    Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.
+                  </p>
+                  <p>
+                    Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <h3>Характеристики</h3>
+              <ol class="items-list items-list_number">
+                <li>Двойной обод</li>
+                <li>Алюминиевый сплав</li>
+                <li>Колеса диаметром 26 дюймов</li>
+                <li>Покрышки 26х1,95"</li>
+              </ol>
+              <form class="form__send">   
+                <h3>Добавить характеристику</h3>
+                <div class="item__box">                   
+                  <input type="text" class="form-control" id="itemDesc1" autocomplete="off" placeholder="Алюминиевый сплав" required>
+                  <button type="submit" name="formSubmit" class="btn btn-primary">Добавить</button> 
+                </div> 
+              </form>
+              <div class="box__container">
+                <div class="button__wrapper">
+                  <button type="submit" name="formOk" class="btn btn-primary">Окей</button> 
+                  <button type="submit" name="formReset" class="btn btn-secondary">Отмена</button> 
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabTwo" role="tabpanel">
+              <div class="item__box">
+                <picture class="item__box_image">
+                  <source type="image/webp" srcset="./img/image-2.webp" width="358" height="232" loading="lazy">
+                  <img srcset="./img/image-2.jpg" alt="Женский велосипед" width="358" height="232" loading="lazy">
+                </picture>
+                <div class="item__box_desc">
+                  <h1>Велосипед SCHWINN Traveler women 2022</h1>
+                  <p>
+                    Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.
+                  </p>
+                  <p>
+                    На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <h3>Характеристики</h3>
+              <ul class="items-list items-list_icon">
+                <li>Стальная рама</li>
+                <li>Жесткая вилка</li>
+                <li>Колеса диаметром 24 дюймов</li>
+                <li>7 скоростей</li>
+              </ul>
+              <form class="form__send">   
+                <h3>Добавить характеристику</h3>  
+                <div class="item__box">                   
+                  <input type="text" class="form-control" id="itemDesc2" autocomplete="off" placeholder="Алюминиевый сплав" required>
+                  <button type="submit" name="formSubmit" class="btn btn-primary">Добавить</button> 
+                </div>                   
+              </form>
+              <div class="box__container">
+                <div class="button__wrapper">
+                  <button type="submit" name="formOk" class="btn btn-primary">Окей</button> 
+                  <button type="submit" name="formReset" class="btn btn-secondary">Отмена</button> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <footer class="page__footer">
+  </footer>
+</body>
+</html>

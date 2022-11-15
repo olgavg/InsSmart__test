@@ -1,0 +1,37 @@
+.widget__container {
+  h1, h2, h3 {
+    font: 700 24px/36px 'Montserrat', sans-serif;
+    color: $main-text-color;  
+    margin-bottom: $margin-bottom-2;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: $margin-bottom-3;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: $margin-bottom-3;
+  }
+
+
+  @media screen and (min-width: $md) {
+    h1, h2, h3 {
+      font-size: 26px;
+      line-height: 39px;      
+    }
+    h2 {
+      font-size: 22px;
+      line-height: 33px;
+      margin-bottom: $margin-bottom-2;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: $margin-bottom-2;
+    }
+  }
+}
